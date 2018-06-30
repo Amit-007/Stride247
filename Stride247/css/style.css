@@ -1,12 +1,29 @@
 .navbar{
     margin-bottom: 0;
     border-radius: 0;
-    background-color: #044F67;
+    /* background-color: #044F67; */
     color: #ffffff;
     padding: 1% 0;
     font-size: 1.2em;
     border: 0;
 }
+.navbar{
+
+    background-image: -webkit-linear-gradient(left, #ffffff 0%,  #92ddef 100%);
+    background-image: linear-gradient(to right, #92ddef 0%,  #044F67 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTRansform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#040404', GradientType=0);
+    /* background-image: -webkit-linear-gradient(top, #ffffff 0%, #dfdfdf 100%); */
+    /* background-image: linear-gradient(to bottom, #ffffff 0%, #dfdfdf 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffdfdfdf', GradientType=0); */
+    /* background-image: -webkit-linear-gradient(top, #004400 0%, #009900 100%); */
+    /* background-image: -o-linear-gradient(top, #004400 0%, #009900 100%);
+    background-image: linear-gradient(to bottom, #004400 0%, #009900 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff004400', endColorstr='#ff009900', GradientType=0); */ 
+}
+
 .navbar-brand{
     float: left;
     min-height: 55px;
